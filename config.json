@@ -1,0 +1,8 @@
+{
+  "name": "Text Menu Item",
+  "slug": "text-menu-item",
+  "for" : [ "menus" ],
+  "settings": {
+    "display_flags": 0
+  }
+}

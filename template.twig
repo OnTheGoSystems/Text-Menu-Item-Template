@@ -1,0 +1,7 @@
+{%- if native_name -%}{{ native_name }}{%- endif -%}
+
+{%- if display_name -%}
+    {%- if native_name %} ({%- endif -%}
+        {{- display_name -}}
+    {%- if native_name -%}){%- endif -%}
+{%- endif -%}
